@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/node-fetch": "^2.6.11",
+    "typescript": "^5.4.0"
+  }
+}
